@@ -82,8 +82,9 @@ def solve(bo):
             bo[row][col] = 0
     return False
 
-
+#before
 print_board(board)
 solve(board)
 print("_______________________________")
+#after
 print_board(board)
